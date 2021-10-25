@@ -35,6 +35,7 @@ namespace CapaPresentacion
             this.docenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignaturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.jefePracticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +55,8 @@ namespace CapaPresentacion
             this.alumnoToolStripMenuItem,
             this.docenteToolStripMenuItem,
             this.laboratorioToolStripMenuItem,
-            this.asignaturaToolStripMenuItem});
+            this.asignaturaToolStripMenuItem,
+            this.jefePracticaToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.menuToolStripMenuItem.Text = "Mantenimiento";
@@ -88,6 +90,13 @@ namespace CapaPresentacion
             this.asignaturaToolStripMenuItem.Text = "Asignatura";
             this.asignaturaToolStripMenuItem.Click += new System.EventHandler(this.asignaturaToolStripMenuItem_Click);
             // 
+            // jefePracticaToolStripMenuItem
+            // 
+            this.jefePracticaToolStripMenuItem.Name = "jefePracticaToolStripMenuItem";
+            this.jefePracticaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.jefePracticaToolStripMenuItem.Text = "Jefe Practica";
+            this.jefePracticaToolStripMenuItem.Click += new System.EventHandler(this.jefePracticaToolStripMenuItem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -113,5 +122,6 @@ namespace CapaPresentacion
         private System.Windows.Forms.ToolStripMenuItem docenteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem laboratorioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignaturaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem jefePracticaToolStripMenuItem;
     }
 }
